@@ -7,7 +7,7 @@ from aiogram.utils import executor
 import keyboards as kb
 
 # Переменные
-TOKEN = "2127867509:AAFsEBawI8Qn0FsCzHa1w4Z-0W9UhbaDqbo"
+TOKEN = "BOT_TOKEN"
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
 con = sqlite3.connect("database.db")
